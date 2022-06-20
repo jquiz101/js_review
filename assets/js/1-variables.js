@@ -29,3 +29,7 @@ console.log(`const: ${varConst}`)
 
 // 6.
 // Don't use var to declare - because it doesn't have block scope
+// if statements - var declared in here is not stuck inside
+    // - can affect var declared outside
+	// - functions do scoping though, even if you use 'var'
+// 'var' declarations sometimes don't show/suppresses errors; 'let' gives you better error messages
