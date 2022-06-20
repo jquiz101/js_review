@@ -22,3 +22,5 @@ console.log(++theNumber);
 
 // 6.
 console.log(typeof myNum);
+// typeof is an operator, so no need for parenthesis
+// but can be used like a function with () - typeof(myNum)
