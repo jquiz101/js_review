@@ -102,7 +102,8 @@ if (isAllMale) {
 }
 
 // 10.
-const totalMass = charactersArray.reduce(function (acc, obj) { return acc + +obj.mass; }, 0);
+const totalMass = charactersArray.reduce(function (acc, obj) { 
+    return acc + +obj.mass; }, 0);
 console.log(totalMass);
 
 // 11.
